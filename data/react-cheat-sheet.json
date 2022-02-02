@@ -24,7 +24,6 @@
           "definition": "yarn এর সাহায্যে নতুন একটা রিআ্যাক্ট প্রোজেক্ট তৈরী করতে",
           "code": "yarn create react-app <project-name>"
         }
-        
       ]
     },
     {

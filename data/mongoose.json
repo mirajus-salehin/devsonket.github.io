@@ -34,13 +34,14 @@
         }
       ]
     },
-	{
+    {
       "title": "মঙ্গুজ-এর মধ্যমে ডকুমেন্ট ইনসার্ট করা",
       "items": [
         {
           "definition": "একটি ডকুমেন্ট সরাসরি ইনসার্ট করা",
           "code": "modelName.create({name : 'Morol'})"
-        }, {
+        },
+        {
           "definition": "অনেকগুলো ডকুমেন্ট সরাসরি ইনসার্ট করা",
           "code": "modelName.insertMany([{ name: 'Morol' }, { name: 'Jinnatul' }])"
         }
@@ -52,19 +53,24 @@
         {
           "definition": "যেকোনো একটা ডকুমেন্ট খোঁজা",
           "code": "modelName.findOne()"
-        },{
+        },
+        {
           "definition": "যেকোনো একটা ডকুমেন্ট খোঁজা আইডি ব্যবহার করে",
           "code": "modelName.findById()"
-        }, {
+        },
+        {
           "definition": "সব ডকুমেন্ট খোঁজা",
           "code": "modelName.find()"
-        }, {
+        },
+        {
           "definition": "সব ডকুমেন্ট খোঁজা এবং সুন্দরভাবে ফরম্যাটে দেখানো",
           "code": "modelName.findOne().prettyPrint()"
-        }, {
+        },
+        {
           "definition": "শুধুমাত্র একটা অ্যাট্রিবিউট দেখানো(যেমনঃ শুধুমাত্র name দেখানো)",
           "code": "modelName.find({}, {name:true, _id:false})"
-        }, {
+        },
+        {
           "definition": "কোনো অ্যাট্রিবিউট ম্যাচ করে একটা ডকুমেন্ট খোঁজা",
           "code": "modelName.findOne({'name':'Morol'})"
         }
@@ -76,10 +82,12 @@
         {
           "definition": "পুরো ডকুমেন্ট রিপ্লেস করে ফেলা",
           "code": "modelName.update({name : 'Morol'}, {name : 'Jinnatul'}) "
-        }, {
+        },
+        {
           "definition": "ডকুমেন্ট এর কোনো অ্যাট্রিবিউট মডিফাই করা",
           "code": "modelName.update({name : 'Morol'}, {$set : {age : 24}})"
-        }, {
+        },
+        {
           "definition": "অনেকগুলো ডকুমেন্ট এর কোনো অ্যাট্রিবিউট মডিফাই করা",
           "code": "modelName.updateMany({name : 'Morol'}, {$set : {age : 24}})"
         }
@@ -91,7 +99,8 @@
         {
           "definition": "একটি ডকুমেন্ট সরাসরি রিমুভ করা",
           "code": "modelName.deleteOne({name : 'Morol'})"
-        }, {
+        },
+        {
           "definition": "অনেকগুলো ডকুমেন্ট সরাসরি রিমুভ করা",
           "code": "modelName.deleteMany({name : 'Morol'})"
         }
@@ -103,19 +112,24 @@
         {
           "definition": "আইডি ব্যবহার করে ডকুমেন্ট খোঁজা ও ডিলিট করা",
           "code": "modelName.findByIdAndDelete()"
-        }, {
+        },
+        {
           "definition": "আইডি ব্যবহার করে ডকুমেন্ট খোঁজা ও রিমুভ করা",
           "code": "modelName.findByIdAndRemove()"
-        }, {
+        },
+        {
           "definition": "আইডি ব্যবহার করে ডকুমেন্ট খোঁজা ও অ্যাট্রিবিউট মডিফাই করা",
           "code": "modelName.findByIdAndUpdate()"
-        }, {
+        },
+        {
           "definition": "একটি ডকুমেন্ট খোঁজা ও ডিলিট করা",
           "code": "modelName.findOneAndDelete()"
-        }, {
+        },
+        {
           "definition": "একটি ডকুমেন্ট খোঁজা ও রিমুভ করা",
           "code": "modelName.findOneAndRemove()"
-        }, {
+        },
+        {
           "definition": "একটি ডকুমেন্ট খোঁজা ও অ্যাট্রিবিউট মডিফাই করা",
           "code": "modelName.findOneAndUpdate()"
         }

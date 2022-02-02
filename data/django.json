@@ -6,7 +6,7 @@
   "colorPref": "#6cc24a",
   "contents": [
     {
-      "title": "pipenv ইনিশিয়ালাইজেশন", 
+      "title": "pipenv ইনিশিয়ালাইজেশন",
       "items": [
         {
           "definition": "প্রোজেক্ট ডিরেক্টরী তৈরী করা",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "title": "pip কমান্ডস", 
+      "title": "pip কমান্ডস",
       "items": [
         {
           "definition": "pip ভার্সন দেখা",
@@ -159,23 +159,23 @@
       "title": "টেমপ্লেট ট্যাগ",
       "items": [
         {
-          "definition":"টেমপ্লেট এক্সটেন্ড করা",
+          "definition": "টেমপ্লেট এক্সটেন্ড করা",
           "code": "{%extends '<html file name>'%}"
         },
         {
-          "definition":"টেমপ্লেট এর ভেতরে স্ট্যাটিক ফাইল লোড করা",
+          "definition": "টেমপ্লেট এর ভেতরে স্ট্যাটিক ফাইল লোড করা",
           "code": "{%load static%}"
         },
         {
-          "definition":"টেমপ্লেট এর ভেতরে ব্লক তৈরি করা",
+          "definition": "টেমপ্লেট এর ভেতরে ব্লক তৈরি করা",
           "code": "{%block <block name>%} ... {%endblock <block name>%}"
         },
         {
-          "definition":"টেমপ্লেট এর ভেতরে কন্ডিশন তৈরি করা",
+          "definition": "টেমপ্লেট এর ভেতরে কন্ডিশন তৈরি করা",
           "code": "{%if <condition>%} .. {%elif <condition>%} .. {%else%}...{%endif%}"
         },
         {
-          "definition":"টেমপ্লেট এর ভেতরে লুপ তৈরি",
+          "definition": "টেমপ্লেট এর ভেতরে লুপ তৈরি",
           "code": "{%for i in <context data name>%} ... {%endfor%}"
         }
       ]

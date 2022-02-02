@@ -28,27 +28,27 @@
         {
           "definition": "এক্টিভেশন হুক সেটআপ করতে",
           "code": "register_activation_hook( __FILE__, 'pluginprefix_function_to_run' )"
-        }, 
+        },
         {
           "definition": "ডিএক্টিভেশন হুক সেটআপ করতে",
           "code": "register_deactivation_hook( __FILE__, 'pluginprefix_function_to_run' );"
-        }, 
+        },
         {
           "definition": "আনইনস্টল হুক সেটআপ করতে",
           "code": "register_uninstall_hook(__FILE__, 'pluginprefix_function_to_run');"
-        }, 
+        },
         {
           "definition": "এক্সিস্টিং ভ্যারিয়াবলেস চেক করতে",
           "code": "isset() (includes arrays, objects, etc.)"
-        }, 
+        },
         {
           "definition": "এক্সিস্টিং ফাংশনস চেক করতে",
           "code": "function_exists()"
-        }, 
+        },
         {
           "definition": "এক্সিস্টিং ক্লাসেস চেক করতে",
           "code": "class_exists()"
-        }, 
+        },
         {
           "definition": "এক্সিস্টিং কনস্ট্যান্টস চেক করতে",
           "code": "defined()"
@@ -336,8 +336,8 @@
           "definition": "রেগুলার এক্সপ্রেশন দিয়ে কোন String থেকে Sub String বের করতে",
           "code": "preg_match()"
         },
-         {
-          "definition": "একটা String থেকে অন্য Sub String এর পজিশন বের করতে", 
+        {
+          "definition": "একটা String থেকে অন্য Sub String এর পজিশন বের করতে",
           "code": "strpos()"
         },
         {

@@ -11,15 +11,15 @@
         {
           "definition": "পূর্ণসংখ্যা",
           "code": "Int"
-        }, 
+        },
         {
           "definition": "ফ্লোটিং পয়েন্ট সংখ্যা",
           "code": "Float"
-        }, 
+        },
         {
           "definition": "এ সিকুয়েন্স অফ ইউনিকোড ক্যারেক্টারস",
           "code": "String"
-        }, 
+        },
         {
           "definition": "বুলিয়ান",
           "code": "Boolean"

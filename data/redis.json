@@ -6,7 +6,7 @@
   "colorPref": "#d92b21",
   "contents": [
     {
-      "tite" :"রেডিস সি এল আই (CLI)",
+      "tite": "রেডিস সি এল আই (CLI)",
       "items": [
         {
           "definition": "রেডিস ভারশন",
@@ -46,7 +46,7 @@
           "code": "SET <key> <value> <TTL>"
         },
         {
-          "definition":"গেট ভ্যালু বাই কী (key)",
+          "definition": "গেট ভ্যালু বাই কী (key)",
           "code": "GET <key>"
         },
         {
@@ -70,8 +70,8 @@
           "code": "DECRBY <key> <number>"
         },
         {
-          "definition":"রেডিসে একটা কি আছে কি না চেক করতে",
-          "code":"EXISTS <key>"
+          "definition": "রেডিসে একটা কি আছে কি না চেক করতে",
+          "code": "EXISTS <key>"
         },
         {
           "definition": "স্ট্রিং এ নতুন স্ট্রিং এড করতে",
